@@ -5,6 +5,8 @@ import { LoginPage } from "./pages/LoginPage/LoginPage";
 import { ProfileHome } from "./pages/ProfilePages/ProfileHome";
 import { ProfileInfo } from "./pages/ProfilePages/ProfileInfo";
 import { ProfileLayout } from "./pages/ProfilePages/ProfileLayout";
+import { AllCoursesProfile } from "./pages/ProfilePages/ProfileCourses";
+import { AllProfessionsProfile } from "./pages/ProfilePages/ProfileProfessions";
 import { ProtectedRoute } from "./components/ProtectedRoute/ProtectedRoute";
 import "./App.css";
 
@@ -33,6 +35,8 @@ function App() {
             >
                 <Route path="/profile" element={<ProfileHome />} />
                 <Route path="info" element={<ProfileInfo />} />
+                <Route path="courses" element={<AllCoursesProfile />} />
+                <Route path="professions" element={<AllProfessionsProfile />} />
             </Route>
 
         </Routes>
