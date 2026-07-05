@@ -1,34 +1,12 @@
-import { professions } from "../../data/my-professions";
+import { AllProfessions } from "../../components/AllCourses/AllCourses";
 
-export function ProfileProfessions() {
+export function AllProfessionsProfile() {
     return (
         <>
-            <div className="profs-grid">
-                {professions.map((prof) => (
-                    <div key={prof.id} className="prof-card">
-                        <div className="prof-card__image">
-                            <img src={prof.image} alt={prof.name} />
-                        </div>
-                        <div className="prof-card__body">
-                            <h3 className="prof-card__title">{prof.name}</h3>
-                            <div className="prof-card__progress-wrap">
-                                <div className="prof-card__progress-bar">
-                                    <div
-                                        className="prof-card__progress-fill"
-                                        style={{ width: `${prof.progress}%` }}
-                                    />
-                                </div>
-                                <span className="prof-card__percent">
-                                    {prof.progress}%
-                                </span>
-                            </div>
-                            <button className="prof-card__btn">
-                                Darsni davom ettirish
-                            </button>
-                        </div>
-                    </div>
-                ))}
+            <div className="profile-page">
+                <h2 className="profile-section-title">Kasblar</h2>
+                <AllProfessions />
             </div>
         </>
-    );
+    )
 }
