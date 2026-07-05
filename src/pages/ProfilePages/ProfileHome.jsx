@@ -1,5 +1,5 @@
-import { ProfileProfessions } from "./ProfileProfessions";
-import { ProfileCourses } from "./ProfileCourses";
+import { ProfileProfessions } from "../../components/AllCourses/AllCourses";
+import { ProfileCourses } from "../../components/AllCourses/AllCourses";
 import "./ProfilePage.css";
 
 export function ProfileHome() {
