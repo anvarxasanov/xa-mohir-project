@@ -21,10 +21,10 @@ export function Header() {
                         <a className="text-light" href="/profile">
                             Home
                         </a>
-                        <a className="text-light" href="#kasblar">
+                        <a className="text-light" href="/profile/professions">
                             Kasblar
                         </a>
-                        <a className="text-light" href="#kurslar">
+                        <a className="text-light" href="/profile/courses">
                             Kurslar
                         </a>
                     </nav>
