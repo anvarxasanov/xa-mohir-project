@@ -15,7 +15,7 @@ export function AuthProvider({ children }) {
     }, []);
 
     function login(email, password) {
-        if (email === 'khasanovanvar07@gmail.com' && password === '1234') {
+        if (email === 'example@gmail.com' && password === '1234') {
             const fakeUser = { email, password };
             setUser(fakeUser);
             localStorage.setItem('user', JSON.stringify(fakeUser));
