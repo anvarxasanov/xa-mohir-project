@@ -3,7 +3,7 @@
     min-height: 100vh;
     background: #0f1117;
     padding: 40px 64px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     color: #fff;
 }
 
@@ -11,7 +11,7 @@
     flex: 1;
     padding-top: 60px;
     background: #0f1117;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     color: #fff;
 }
 
@@ -168,7 +168,10 @@
 
 @media (max-width: 768px) {
     .profile-page {
-        padding: 24px 20px;
+        padding: 40px 20px;
+    }
+    .profile-info-page {
+        padding-top: 100px;
     }
 }
 
