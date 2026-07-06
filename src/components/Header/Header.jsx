@@ -18,15 +18,15 @@ export function Header() {
                     </Link>
 
                     <nav className="navbar__links">
-                        <a className="text-light" href="/profile">
+                        <Link className="text-light" to="/profile">
                             Home
-                        </a>
-                        <a className="text-light" href="/profile/professions">
+                        </Link>
+                        <Link className="text-light" to="/profile/professions">
                             Kasblar
-                        </a>
-                        <a className="text-light" href="/profile/courses">
+                        </Link>
+                        <Link className="text-light" to="/profile/courses">
                             Kurslar
-                        </a>
+                        </Link>
                     </nav>
                     <Link to="/profile/info" className="btn">
                         Profile
@@ -45,15 +45,15 @@ export function Header() {
                     </Link>
 
                     <nav className="navbar__links">
-                        <a className="text-light" href="/">
+                        <Link className="text-light" to="/">
                             Home
-                        </a>
-                        <a className="text-light" href="#kasblar">
+                        </Link>
+                        <Link className="text-light" to="#kasblar">
                             Kasblar
-                        </a>
-                        <a className="text-light" href="#kurslar">
+                        </Link>
+                        <Link className="text-light" to="#kurslar">
                             Kurslar
-                        </a>
+                        </Link>
                     </nav>
 
                     <Link to="/login" className="btn">
