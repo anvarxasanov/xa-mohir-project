@@ -1,6 +1,7 @@
 import { Header } from "../../components/Header/Header";
 import { Footer } from "../../components/Footer/Footer";
 import { Hero } from "../HomePage/Hero";
+import { Categories } from "../HomePage/Categories";
 
 export function HomePage() {
     return (
@@ -10,6 +11,7 @@ export function HomePage() {
                 <Header />
                 <main className="page-content">
                     <Hero />
+                    <Categories />
                 </main>
                 <Footer />
             </div>
